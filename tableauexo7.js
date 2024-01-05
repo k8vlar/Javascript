@@ -11,11 +11,10 @@ let jours = [ 'lun', '007', 'mer', 'jeu', 'ven', 'sam', 'BUG' ];
 // 1.+3.
 jours.splice(6,1,'dim');
 // 4.
-jours.splice(1,1,'mar')
+jours.splice(1,1,'mar');
 // 5.
 jours.length;
 // 6.
 console.log(jours[2]);
 // 2.
 console.log(jours);
-

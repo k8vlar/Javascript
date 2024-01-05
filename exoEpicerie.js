@@ -8,18 +8,17 @@ var fruits = [ 'Mangue', 'Raisin', 'Figue', 'Kiwi' ];
 
 
 
-// 1.
-let fruitChoice = fruitChoice
+// 1
     alert(fruits);
-    for(let i=0, i)
-let fruits = (prompt=("quel fruit désires tu acheter?"));
-    if (fruits[1,2,3,4]!==-1) {alert("ok");
-    thenif (fruits [0] === fruitChoice);
-    return (fruits.splice[0,1]);}
-    else if (fruits [1]=== fruitChoice){
-    return fruits.splice[1,1];}
-    else alert("indisponible");
-    return fruits
-    // alert ("fruits.splice");
+    
+let fruitsChoice = prompt("quel fruit désires tu acheter? mangue, raisin, figue, kiwi?");{
+    let fruitCalcul= fruits.indexOf(fruitsChoice)
+    if (fruitCalcul !== -1) {
+        fruitCalcul = fruits.splice(fruitsChoice,1)
+        alert("ok");
+}   else {alert ("indisponible");
+}
+alert(fruits) 
+}
 
-
+// alert ("fruits.splice");
