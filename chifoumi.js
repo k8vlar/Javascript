@@ -27,6 +27,4 @@ let scoreOrdi= 0;
 let score;
     if (scoreJoueur == scoreOrdi) {console.log("égalité, vous n'avez pu vous départager, vous"+scoreJoueur+",ordi"+scoreJoueur);
 }   else if (scoreOrdi > scoreJoueur) {console.log("Vous avez perdu la partie:"+scoreOrdi+"a"+scoreJoueur);
-}   else {console.log("Vous avez gagné:"+scoreJoueur+"a"+scoreOrdi);
-}
-
+}   else {console.log("Vous avez gagné:"+scoreJoueur+"a"+scoreOrdi);}
