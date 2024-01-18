@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.hidden{
+    display: none;
+}
+.viandes{
+    /* display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    color: #d10606;
+}
+.poissons{
+    /* display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    color: #0625d4;
+}
+.crudites{
+    /* display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    color: #4CAF50;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+#btnViandes{
+    background-color: #d10606; 
+    width: fit-content;
+
+}
+#btnPoissons{
+    background-color: #0625d4; 
+    width: fit-content;
+}
+#btnCrudites{
+    background-color: #4CAF50; 
+    width: fit-content;
+}
+#btnViewAll{
+    background-color: #b8ff13; 
+    width: fit-content;
+}

@@ -1,0 +1,14 @@
+.carrouselImg{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.carrousel{
+    display: flex;
+    align-items: center;
+}
+.btnCarrousel{
+    background-color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+}
