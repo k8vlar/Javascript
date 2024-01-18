@@ -5,16 +5,14 @@ var fruits = [ 'Mangue', 'Raisin', 'Figue', 'Kiwi' ];
 // s’il est présent dans le tableau fruits: le retirer du tableau, et afficher 'ok!',
 // sinon, afficher 'indisponible...'.
 // 3. Affiche à nouveau la liste de fruits disponibles.
-
-
-
 // 1
     alert(fruits);
     
 let fruitsChoice = prompt("quel fruit désires tu acheter? mangue, raisin, figue, kiwi?");{
-    let fruitCalcul= fruits.indexOf(fruitsChoice)
-    if (fruitCalcul !== -1) {
-        fruitCalcul = fruits.splice(fruitsChoice,1)
+    let fruitCalcul= fruits.indexOf(fruitsChoice);
+    console.log(fruitCalcul);
+    if (fruitCalcul != -1) {
+        fruitCalcul = fruits.splice(fruitCalcul,1);
         alert("ok");
 }   else {alert ("indisponible");
 }
