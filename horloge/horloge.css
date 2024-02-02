@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(1, 35, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    color: white;
+    font-size: 48px;
+    margin: 20px;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.clock{
+border-radius: 50%;
+background-image: image-set(url("products-louis_vuitton-829192.jpeg"));
+
+border: 7px solid rgb(241, 203, 8);
+}
+.wrap{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    /* les aiguilles se deplace par rapport au wrap , les positions absolute a l'interieur se deplaceront par rapport a cette position relative */
+}
+.minute,.hour{
+    position: absolute;
+    height: 100px;
+    width: 6px;
+    background: black;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: -27%;
+    transform-origin: bottom center;
+    /* permet de placer l'origine de la future transformation en bas de l'aiguille */
+    transform: rotate(0deg);
+
+}
+.minute{
+    position: absolute;
+    height: 130px;
+    width: 4px;
+    margin: auto;
+    top: -38%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform-origin: bottom center;
+    transform: rotate(90deg);
+}
+.second{
+    position: absolute;
+    height: 150px;
+    width: 2px;
+    background: white;
+    margin: auto;
+    top:-42%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform-origin: bottom center;
+    transform: rotate(180deg);
+}
+.point{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    background: rgb(241, 203, 8);
+    border-radius: 50%;
+    border: 1px solid black;
+}
