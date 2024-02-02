@@ -7,26 +7,28 @@
     <title>Document</title>
 </head>
 <body>
-
-    
-    <button class="left">Gauche
-
-    </button>
-    <button class="right">Droite
-
-    </button>
-    <div class="carrousel">
-        <div class="images">
-            
-            <img id="image1" src="" alt="">
-            <img id="imageDisplay" src="" alt="">
-            <img id="image3" src="" alt="">
+    <header>
+        <div class="titleText">
+            <h1>LE CAR-ROUE-SELLE</h1>
         </div>
-        <img class="mainpicture" src="" alt="">
-        
-    </div>
-    
-
+        <div class="carrousel">
+                <button class="buttonContainer" id="left">&#8592
+                </button>
+                <button class="buttonContainer" id="right">&#8594
+                </button>
+            <ul>
+                <li class="slide">
+                    <img id="image1" src="" alt="">
+                </li>
+                <li class="slide display">
+                    <img  id="image2" src="" alt="">
+                </li>
+                <li class="slide">
+                    <img  id="image3" src="" alt="">
+                </li>
+            </ul>   
+        </div>
+    </header>
 </body>
 <script src="./prototypeCarrousel.js"></script>
 </html>
